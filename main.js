@@ -88,6 +88,6 @@ app.delete("/comments/id/:id",(req,res)=>{
 // server
 const port=3000;
 app.listen(port,()=>{
-    console.log(`server is runing on http://localhost:${port}/comments`)
+    console.log(`server is running on http://localhost:${port}/comments`)
 })
 
